@@ -6,9 +6,11 @@ days = [0,31,28,31,30,31,30,31,31,30,31,30,31]
 
 month = m1
 day = d1
+elapsed_days = 1
 
 while True:
     if month == m2 and day == d2:
+        elapsed_days += 1
         break
     
     elapsed_days += 1
