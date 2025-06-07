@@ -12,12 +12,11 @@ while True:
     elapsed_days += 1
 
     if month == m2 and day == d2:
-        elapsed_days += 1
         break
     
     day += 1 
 
-    if day == days[month]:
+    if day == days[month]+1:
         month += 1
         day = 1
     
