@@ -6,18 +6,19 @@ days = [0,31,28,31,30,31,30,31,31,30,31,30,31]
 
 month = m1
 day = d1
-elapsed_days = 1
+elapsed_days = 0
 
 while True:
     elapsed_days += 1
+
+    if month == m2 and day == d2:
+        elapsed_days += 1
+        break
+    
     day += 1 
 
     if day == days[month]:
         month += 1
         day = 1
-    
-    if month == m2 and day == d2:
-        elapsed_days += 1
-        break
     
 print(elapsed_days)
