@@ -28,5 +28,5 @@ else:
 
         # minute += 1
         # elapsed_time += 1
-
-print(elapsed_time)
+    
+    print(elapsed_time)
