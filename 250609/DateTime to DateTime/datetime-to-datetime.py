@@ -15,8 +15,8 @@ else:
         if day == a and hour == b and minute == c:
             break
 
-        # minute += 1
-        # elapsed_time += 1
+        minute += 1
+        elapsed_time += 1
 
         if minute > 59:
             hour += 1
@@ -26,7 +26,7 @@ else:
             day += 1
             hour = 0
 
-        minute += 1
-        elapsed_time += 1
+        # minute += 1
+        # elapsed_time += 1
 
 print(elapsed_time)
