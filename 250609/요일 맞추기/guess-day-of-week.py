@@ -7,11 +7,8 @@ week = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 days1 = sum(days[1:m1]) + d1
 days2 = sum(days[1:m2]) + d2
 
-diff = abs(days1 - days2)
+diff = days2 - days1
 diff = diff % 7
 
-if (days1 - days2) >= 0 :
-    print(week[7-diff])
-else:
-    print(week[diff])
+print(week[diff])
     
