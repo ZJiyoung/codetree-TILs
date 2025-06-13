@@ -27,5 +27,6 @@ for i in range(M):
     count[student[i]] += 1
     if count[student[i]] == K:
         result = student[i]
+        break
 
 print(result)
