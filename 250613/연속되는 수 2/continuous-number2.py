@@ -4,7 +4,7 @@ arr = [int(input()) for _ in range(n)]
 # Please write your code here.
 
 count = 1
-max = 0
+max = 1
 
 for i in range(n-1):
     if arr[i] == arr[i+1]:
