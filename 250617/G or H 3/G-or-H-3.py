@@ -12,7 +12,7 @@ max_score = 0
 
 for i in range(n):
     for j in range(i,n):
-        if (x[j]-x[i]) <= k:
+        if (x[j]-x[i]) == k:
 
             score = 0
 
