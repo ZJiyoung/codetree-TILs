@@ -8,7 +8,7 @@ for _ in range(n):
 
 # Please write your code here.
 people = sorted([(x[i], c[i]) for i in range(n)])
-score = 0 
+
 max_score = 0
 
 for i in range(n):
